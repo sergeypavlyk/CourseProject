@@ -1,0 +1,33 @@
+@mixin bg_first {
+    background: url(../background/backgroundstart.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    min-height: 180vh; 
+}
+@mixin bg_second{
+    background-color: #f7f9fb;
+    min-height: 600px;
+    width: 100%;
+}
+@mixin button {
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    max-width: 220px;
+    height: 55px;
+    border: none;
+    background: #25365d;
+    border-radius: 50px;
+    cursor: pointer;
+}
+@mixin h3{
+    color: #25365d;
+    font-size: 72px;
+    font-family: 'BebasNeueBold', sans-serif;
+    padding-left: 4px;
+    line-height: 72px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}

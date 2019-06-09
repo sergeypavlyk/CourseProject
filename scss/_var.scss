@@ -31,3 +31,10 @@
     padding-top: 100px;
     padding-bottom: 40px;
 }
+@mixin bg_last {
+    background: url(../background/backgroundend.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    min-height: 100vh;
+}
